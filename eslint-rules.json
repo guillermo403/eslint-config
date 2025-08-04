@@ -28,10 +28,10 @@
 		"max-len": [
 			"error",
 			{
-				code: 120,
-				ignoreComments: true,
-				ignoreUrls: true,
-				ignorePattern: "class=[\"']([\\s\\S]*?)[\"']"
+				"code": 120,
+				"ignoreComments": true,
+				"ignoreUrls": true,
+				"ignorePattern": "class=[\"']([\\s\\S]*?)[\"']"
 			}
 		],
 		"no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
